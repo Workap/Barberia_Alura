@@ -1,0 +1,163 @@
+header{
+	background: #BBBBBB;
+	padding: 20px 0;
+}
+
+.caja{
+	width: 940px;
+	position: relative;
+	margin: 0 auto;
+}
+
+nav{
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li{
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a{
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #0404B4;
+	text-decoration: underline;
+}
+
+
+main{
+	width: 940px;
+	margin: 0 auto;
+}
+
+form{
+	margin: 40px 0;
+}
+
+form label, form legend{
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padron, form textarea{
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+	resize: none;
+
+}
+
+.checkbox{
+	margin: 30px 0;
+
+}
+
+
+.enviar{
+	font-size: 18px;
+	font-weight: bold;
+	width: 40%;
+	padding: 15px 0;
+	background-color: #000;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+	transition: 1s;
+	cursor: pointer;
+}
+
+.enviar:hover{
+	background-color: #0404B4;
+	transform: scale(1.2);
+}
+
+table{
+	margin: 40px 40px;
+	text-align: center;
+}
+
+thead{
+	background-color: #555;
+	font-weight: bold;
+	color: white;
+}
+
+td,th{
+	border: 1px solid #000;
+	padding: 8px 10px;
+	transition: 1s;
+}
+
+td:hover{
+	background-color: #8904B1;
+	color: white;
+	transform: scale(1.2);
+}
+
+
+td:active{
+	background-color: #F6CECE;
+	color: #8A0829;
+}
+
+
+footer{
+	background-image: url(imagenes/bg.jpg);
+	color: #fff;
+	text-align: center;
+	padding: 40px;
+}
+
+.copy{
+	font-size: 13px;
+	margin:20px;
+}
+
+
+
+@media screen and (max-width:940px){
+    .caja, main{
+        width: auto;
+    }
+
+    nav{
+        position: static;
+        text-align: center;
+    }
+
+    h1{
+        text-align: center;
+    }
+    
+
+    form{
+    	margin: 12px 2em ;
+    }
+
+    .input-padron{
+    	width: 80%;
+    }
+
+    .enviar{
+    	width: 100%;
+    }
+
+    table{
+    	text-align: center;
+    	width: 70%;
+    	margin-left: 50px;
+
+    }
+
+} 
